@@ -8,7 +8,7 @@
 
 ```cpp
 #include <Arduino.h>
-#include <simple_timer.h>
+#include <nb_ard_timer.h>
 
 // 1000 ms timer
 SimpleTimer pollTimer(1000);

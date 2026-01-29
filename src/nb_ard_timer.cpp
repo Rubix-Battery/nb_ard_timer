@@ -1,4 +1,4 @@
-#include "simple_timer.h"
+#include "nb_ard_timer.h"
 
 SimpleTimer::SimpleTimer(unsigned long interval_ms) : _interval(interval_ms), _lastMillis(0) {}
 
