@@ -1,7 +1,7 @@
 {
   "name": "nb_ard_timer",
   "version": "1.0.0",
-  "keywords": "",
+  "keywords": "Arduino, ESP32, timer, non-blocking",
   "description": "Simple, non-blocking timer lib for Arduino and ESP32 based projects. Wrapper for blink-without-delay style timing.",
   "repository": {
     "type": "git",
@@ -17,5 +17,5 @@
   ],
   "frameworks": "arduino",
   "platforms": "espressif32",
-  "headers": ""
+  "headers": "simple_timer.h"
 }
