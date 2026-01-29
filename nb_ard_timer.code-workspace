@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "lib_template",
+			"name": "nb_ard_timer",
 			"path": "."
 		}
 	],
@@ -73,7 +73,7 @@
 		},
 		"psi-header.variables": [
 			["projectCreationYear", "2026"],
-            ["licenseURL", "https://github.com/Rubix-Battery/lib_template/LICENSE"]
+            ["licenseURL", "https://github.com/Rubix-Battery/nb_ard_timer/LICENSE"]
 		],
 		"psi-header.templates": [
 			{

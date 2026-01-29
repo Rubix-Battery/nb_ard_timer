@@ -1,18 +1,17 @@
 {
-  "name": "lib_template",
+  "name": "nb_ard_timer",
   "version": "1.0.0",
   "keywords": "",
-  "description": "",
-  "repository":
-  {
+  "description": "Simple, non-blocking timer lib for Arduino and ESP32 based projects. Wrapper for blink-without-delay style timing.",
+  "repository": {
     "type": "git",
-    "url": "https://github.com/Rubix-Battery/lib_template"
+    "url": "https://github.com/Rubix-Battery/nb_ard_timer"
   },
   "authors":
   [
     {
-        "name": "author_name",
-        "email": "author_email",
+        "name": "Giddy-Up224",
+        "email": "128929355+Giddy-Up224@users.noreply.github.com",
         "maintainer": true
     }
   ],
