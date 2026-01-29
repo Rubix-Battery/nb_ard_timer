@@ -17,5 +17,5 @@
   ],
   "frameworks": "arduino",
   "platforms": "espressif32",
-  "headers": "simple_timer.h"
+  "headers": "nb_ard_timer.h"
 }
