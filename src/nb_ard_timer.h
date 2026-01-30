@@ -5,6 +5,7 @@
 class SimpleTimer {
 public:
     SimpleTimer(unsigned long interval_ms);
+    ~SimpleTimer();
 
     // True if expired
     bool expired();

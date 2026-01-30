@@ -2,6 +2,8 @@
 
 SimpleTimer::SimpleTimer(unsigned long interval_ms) : _interval(interval_ms), _lastMillis(0) {}
 
+SimpleTimer::~SimpleTimer() {}
+
 bool SimpleTimer::expired() {
     unsigned long now = millis();
     if (now - _lastMillis >= _interval) {
