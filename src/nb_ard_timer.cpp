@@ -1,10 +1,10 @@
 #include "nb_ard_timer.h"
 
-SimpleTimer::SimpleTimer(unsigned long interval_ms) : _interval(interval_ms), _lastMillis(0) {}
+NbArdTimer::NbArdTimer(unsigned long interval_ms) : _interval(interval_ms), _lastMillis(0) {}
 
-SimpleTimer::~SimpleTimer() {}
+NbArdTimer::~NbArdTimer() {}
 
-bool SimpleTimer::expired() {
+bool NbArdTimer::expired() {
     unsigned long now = millis();
     if (now - _lastMillis >= _interval) {
         _lastMillis = now;
@@ -13,6 +13,6 @@ bool SimpleTimer::expired() {
     return false;
 }
 
-void SimpleTimer::reset() {
+void NbArdTimer::reset() {
     _lastMillis = millis();
 }

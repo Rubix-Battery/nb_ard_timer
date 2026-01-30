@@ -2,10 +2,10 @@
 
 #include <Arduino.h>
 
-class SimpleTimer {
+class NbArdTimer {
 public:
-    SimpleTimer(unsigned long interval_ms);
-    ~SimpleTimer();
+    NbArdTimer(unsigned long interval_ms);
+    ~NbArdTimer();
 
     // True if expired
     bool expired();

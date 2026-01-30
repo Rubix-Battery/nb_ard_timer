@@ -11,7 +11,7 @@
 #include <nb_ard_timer.h>
 
 // 1000 ms timer
-SimpleTimer pollTimer(1000);
+NbArdTimer pollTimer(1000);
 
 void setup() {
     // Initialize the serial communication
@@ -25,7 +25,7 @@ void loop() {
 }
 ```
 
-If you wish to reset the timer to its start value to delay its expiration, simply call `reset()` like this:
+If you wish to reset the timer to its start value (0) to delay its expiration, simply call `reset()` like this:
 
 ```cpp
 pollTimer.reset();
